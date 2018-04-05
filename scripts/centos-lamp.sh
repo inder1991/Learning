@@ -16,4 +16,7 @@ chkconfig mysqld on
 service mysqld start
 mysql -u root -e "SHOW DATABASES";
 
+cd /vagrant
+sudo -u root wget -q  https://github.com//inder991/Learning/blob/master/files/index.html
+sudo -u root wget -q  https://github.com/inder1991/Learning/blob/master/files/info.php
 service httpd restart
